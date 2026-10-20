@@ -1,0 +1,27 @@
+{
+  "name": "portraits-chat",
+  "version": "1.0.0",
+  "description": "Portraits Chat",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^YOUR_CURRENT_VERSION",
+    "electron-builder": "^26.0.0"
+  },
+  "dependencies": {
+    "ws": "^YOUR_CURRENT_VERSION"
+  },
+  "build": {
+    "appId": "com.plazg.portraitschat",
+    "productName": "Portraits Chat",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
